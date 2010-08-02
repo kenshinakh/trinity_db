@@ -1,0 +1,11 @@
+DELETE FROM gameobject WHERE id=194569 AND map=603;
+INSERT INTO gameobject(id, map, position_x, position_y, position_z) VALUES(194569, 603, 1850.95, 40.15, 342.28); 
+INSERT INTO gameobject(id, map, position_x, position_y, position_z) VALUES(194569, 603, -706.12, -92.60, 429.87); 
+INSERT INTO gameobject(id, map, position_x, position_y, position_z) VALUES(194569, 603, 131.24, -35.38, 409.80); 
+INSERT INTO gameobject(id, map, position_x, position_y, position_z) VALUES(194569, 603, 553.23, -12.32, 409.67); 
+INSERT INTO gameobject(id, map, position_x, position_y, position_z) VALUES(194569, 603, 926.29, -11.46, 418.58); 
+INSERT INTO gameobject(id, map, position_x, position_y, position_z) VALUES(194569, 603, 1498.08, -24.24, 420.96); 
+INSERT INTO gameobject(id, map, position_x, position_y, position_z) VALUES(194569, 603, 1859.44, -24.1, 448.81); 
+INSERT INTO gameobject(id, map, position_x, position_y, position_z) VALUES(194569, 603, 2086.27, -24.31, 421.23);
+INSERT INTO gameobject(id, map, position_x, position_y, position_z) VALUES(194569, 603, 2520, 2569, 412.299);   
+INSERT INTO gameobject(id, map, position_x, position_y, position_z) VALUES(194569, 603, 1853.4, -24.7, 334.16); 
