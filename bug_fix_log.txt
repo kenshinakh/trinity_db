@@ -1,0 +1,251 @@
+Bug Fix Log
+==============
+*These fixes apply to the Database 'world'
+
+
+------
+1012_world_fixes.sql
+------
+Large Satchel of Spoils Fixeds
+ -Drops EOTS instead
+
+Ashen Sack of Gems FIxes
+ -Added loot for the bag
+
+Onyxia's Head FIxes
+ -Quest 'A Most Puzzling Circumstances' can now be turned in. It can also be turned in at Dalaran to Rhonin (just incase players get the head version of the opposite faction).
+
+Blood Elf Paladin Fixes
+ -Quest 'The Second Trail' can be turned in to Master Kelerun Bloodmourn now
+
+Ebon Hold FIxes
+ -Fixed Patchwerk location
+
+Dungeon Fixes
+ -Bosses have a chance to drop Stone Keeper's Shard as they do in retail
+
+Proffession: Alchemy Fixes
+ -Quest 'Cardinal Ruby' has been added to Linzy Blackbolt in Dalaran
+
+General World Fixes
+ -Crystallized Air, Earth, Fire, Shadow, Life, and Water drop percent increased
+
+Utgarde Pinnacle (Heroics)
+ -Fixed invisible mob Ritual Target
+ -Gortok Palehoof, Skadi the Ruthless, Grauf are attackable
+ -Disabled Skadi's Script because it was broken
+
+Ulduar 10 Man Fixes
+ -Temp scripts added for Thorim, Algalon, Hodir, General Vezax, Mimiron, Yogg-saron, and Freya
+ -Inserted Archivum console - allows completion of 'Val'anyr, Hammer of Ancient KIngs'
+ -Fixed Mimiron's invisimobs
+ -Removed Cache of Winter, Cache of Living Stone, Freya's Gift; Loot can be found on the boss that the box belongs to
+ -EoC replaced by EoTs
+
+Ulduar 25 Man Fixes
+ -Added 25 man ulduar instance data
+
+ -Added Loot for Flame Leviathan, Razorscale, Ignis the Furnace Master, XT-002 Deconstructor, the Assembly of Iron (Stormcaller Brundir, Runemaster Molgeim, Steelbreaker), Kologarn, Freya, Hodir, Auriaya, Yogg-Saron, General Vezax, Thorim
+
+ -Damage/npc data fixed/added for XR-949 Salvagebot, Parts recovery technician, XD-175 Compactobot, XB-488 Disposalbot, XT-002, Molten Collosus, Iron Construct, Magma Rager, Forge Construct, Ignis the Furnace Master, Razorscale, lightning charged iron dwarf, Hardened Iron GOlem, Iron Mender, Rune Etched Sentry, Chamber Overseer, Runemaster Molgeim, Steelbreaker, Stormcaller brundir, Kologarn (and left and right arm), Storm Tempered Keeper, White Jormungar, Champion of Hodir, Winter Revenant, Winter Rumbler, Hodir, Dark Rune Thunderer, Dark Rune Ravager, Thorim, Sanctum Sentry, Arachnopod Destroyer, Boomer XP-500, Trash, Clockwork sapper, Clockwork Mechanic, Guardian Lasher, forest swarmer, Ironroot Lasher, Guardian of LIfe, Nature's Blade, Mangrove Ent, Elder Ironbranch, Freya, Elder Stonebark, Auriaya, General Vezax, Yogg-Saron
+
+
+------
+1011_world_fixes.sql
+------
+Ulduar 10 Man Fixes
+ -Mimiron, Algalon, and Yogg-saron move faster now
+
+Argent Tournament Ground Fixes
+ -Cultist Bombadiers are attackable
+
+HoL (Heroics) Fixes
+ -Corrected script bugs, instance should now work more like retail - doors to each boss will open only if the previous boss was killed - order goes from Gen. Bj, Volkhan, Ionar, and Loken
+ -Fixed green/unattackle mobs 'Titanium Thunderer' and 'Titanium Siegebreaker'
+ -Ionar should be fightable now, he no longer disappears
+ -Ionar's electric orbs are attackable now
+
+Onyxia's Lair 10 man Fixes
+ -Onyxia's loot fixed, instance should be fully working now
+ -Fixed HP of Obsidian Whelp
+ 31317
+
+Onyxia's Lair 25 Man Fixes
+ -Added data for Onyxia 25 man version, instance should be fully working
+ -Added loot data for Onyxia
+ -Added data for 25 man version of OBsidian Whelp, Onyxian Warder, and Onyxian Lair Guard
+ 
+
+----
+1010_world_fixes.sql
+----
+192173 195437
+Argent Tournament Ground Fixes
+ -Spawn time of Deathspeaker Kharos, Kul the Reckless, Ynvgar Mistcaller, Drottinn Hrothgar, and Ornolf the Scarred are reduced
+
+ -Kvaldir Harpooner (Dead), Kvaldir Berserker (dead) appear dead now
+ -North sea kraken has been turned green again since its quest isn't working.
+
+Ebon Hold (DK questing area) Fixes
+ -Patchwerk will now respawn faster
+
+Utgarde Pinnacle Fixes
+ -Spawns from King Ymiron, Avenging Spirits, are now attackable
+ -Boss Svala Sorrowgrave is now attackable (no longer green)
+ -Dragonflayer Spectator is now targetable and attackable
+ -Boss Gortok Palehoof has been added
+ -Grauf is now targetable and attackable
+viper, venous snake
+-------
+1009_world_fixes.sql
+-------
+Ulduar 10 mAN Fixes
+ -All bosses in Ulduar are now immune to fear spam
+
+HoL and HoS fixes
+ -All bosses are now immune to spam fear
+ -Door to Lonar is now open
+
+ 
+---------
+1008_world_fixes.sql
+---------
+Ulduar 10 man Fixes
+ -Fixed respawn times of chests in Ulduar - Randomly missing chests shouldn't occur anymore (Such as Freya's)
+ -Fixed Kologarn - no more untargetable Kologarn, Re-added Kologarn and his left and right arm at correct spots
+ -Fixed invisible mobs at Kologarn (Focused eyebeam, left and right, Rubble Stalker Kologarn)
+ -Thorim is now attackable
+ -Thorim has been moved down to the floor so people can fight him
+ -Cache of Storms, Gift of the Observer, and cache of innovation have been deleted because of rapid respawning issues, instead, their loot will be lootable from their respective boss
+ -Loot for Thorim, Algaron, and Mimiron added
+ -Leviathan Mk II is now targetable and attackable
+ -Fixed invisible mobs at Mimiron (Computer and Bot trigger)
+ -Fixed damage of Leviathan MK II
+
+Argent Tournament Grounds Fixes
+ -Quest 'Battle Before the Citadel' should work now, Boneguard Commanders have been added
+ -Quest 'Threat From Above' fixed, Chillmaw and Cultist Bombardiers have been added
+
+
+----
+1007_world_fixes.sql
+----
+Fixes loot box respawn time in ulduar
+
+
+-----
+1006_world_fixes.sql
+-----
+Readds Ulduar teleporters
+
+-----
+1005_world_fixes.sql
+-----
+
+Argent Tournament Ground fixes
+ -Added Narasi Snowdawn into the Silver Covenant Pavilion, 
+   -Allows alliance players to pickup quests 'A Leg Up', 'Stop the Aggressors', 'You've really done it this time kul' and 'Rescue at sea' without having to run into the horde tent
+
+Ulduar 10 man Fixes
+ -Added Fraya's Gift - her loot box
+ -Added Cache of Innovation - Mimiron's loot box
+ -Added Gift of the Observer - Algalon the Observer's loot box
+ -Added Cache of Storms - Thorim's loot box
+ -Door to the Decent into Madness is now open
+ -Door to the Celestial Planetarium is open
+
+ -Added Algalon the Observer
+ -Modified damage of Leviathan MK II, Mimiron, Yogg-saron, General Verax, and Algalon (They were doing 1 dmg... which would be too easy)
+ -Door to Yogg-Saron's room is broken, so an additional teleporter was added to bypass it
+ -Added Yogg-saron and his brain
+
+ -Fixed invisible mob razorscale controller, Razorscale Harpoon Fire State, Razorscale Spawner, vezax bunny, thorim event bunny, thorim controller, thunder orb- they won't attack you now...
+
+ -Increased damage of Enslaved Fire Elemental, Twilight Guardian, Twilight Pyromancer, Twilight Frost Mage, Twilight Adherent, and Faceless horror - They were doing 1 dmg before
+
+ -Added new portal locations to reach locations in Ulduar - ulduar_teleporter.cpp
+
+-------
+1004_world_fixes.sql
+--------
+
+Ulduar 10 Man fixes
+ -Added missing boss 'Flame Leviathan' (id 33113)
+ -Door after boss 'Flame Leviathan' has been forced opened (gameobject id 194630)
+ -Door to the last room in 'The Antechamber' is opened (there's nothing there according to wowhead.com)
+ -Fixed location of boss 'Auriaya' and the locations of the two 'Sanctum Sentry'
+ -Fixed multiple doors in 'The Halls of Winter'
+ -Ulduar portal works since 'Flame Leviathan' is back in (The code was a bunch of if statements, and if 'Flame Leviathan' is not killed, then the rest of the portal will not work).
+     -it will allow "Teleport to the Colossal Forge" if the Leviathan is killed
+     -'Teleport to Scrapyard' and 'Teleport to the Antechamber of Ulduar' are allowed after 'Xt002' is defeated
+     -'Teleport to the Shattered Walkway' is allowed if 'Kologarn' is killed
+     -'Teleport to the Conservatory of Life' is allowed if 'Auriaya' is killed
+
+Wintergrasp Fixes
+ -Mature Lasher damage and loot fixed, now drops what Living Lashers drop and the quest items
+
+
+----
+dk_portal_fix2.sql
+-----
+ -new portal fix for DKs, the portal in Archerus after their starting quest area should work
+
+-----
+1003_world_fixes.sql
+-----
+
+Argent Tournament Grounds
+ -Added NPC Kull the Reckless - allows completion of 'You've really done it this time kul'
+ -Work around Fix for quest "You've really done it this time kull', the prisoners are freed by slaying them. The same goes for kul.
+ -Added High Crusader Adelard into the Argent Pavilion, Alliance can now do quests "Drottinn Hrothgar", "Mistcaller Yngvar", "Ornolf the Scarred", and "Deathspeaker Kharos"
+ -Quest "You've Really done it this Time Kul" works now, just slay Captive Aspirant and Kull the Reckless
+ -Quest "Drottinn Hrothgar" fixed - the NPC spawns at the correct spot
+ -Quest "Ornolf the Scarred" fixed, Ornolf is on the boat and can be killed for completion of the quest.
+
+--------
+1002_world_fixes.sql
+*-----------
+-Icecrown fixes
+ - 'Dark Zealot', 'Dark Ritualist', 'Deathspeaker Kharos', 'Kvaldir Reaver', Kvaldir Mist Binder, 'Mistcaller Yngvar' damage and drop fixed
+ - 'Kvaldir Berserker' and 'Kvaldir Harpooner' damage, drop and faction fixed - npcs are now attackable
+ - Kraken in Hrothgar's Landing fixed and is now attackable
+
+-Gundrak Fixes
+ - 'Eck the feroucious' is now attackle
+
+-Trail of the Crusader fixes
+ - the Black Knight is now attackable
+
+
+
+-----------
+1001_world_fixes.sql
+-------
+
+-Acherus The Ebon Hold Fixes
+ *Note: DK Portal appears to be working. It has been tested rigorously by several of my friends and me.
+ *Additional Notes: Cannons in DK quest by the harbor more correctly now. DK chain quests appear to work 100% now.
+ -Fixed faction of 'Mine Cart' (world->Tables->creature_template->Entry 28821) from 35 to 2095
+ -Fixed location of 'Olrun the Battlecaller' (world->Tables->creature->GUID: 128739); X: 2368.87, Y: -5778.70, X: 151.41; 
+	*DKs can now pick up her quest much more easily.
+-Gundrak Fixes
+ -Fixed 'Drakkari Colossus' Boss, 'Drakkari Elemental' (world->Tables->creature_template->Entry 29573) is now attackable.
+ -Bridge now works 100%. Players will have to defeat all bosses and activate the stones before the bridge is set correctly
+
+-Halls of Stone Fixes
+ -Spawns during Brann Bronzebeard's speech are no longer friendly but are hostile as they should be
+ -Spawns during battle with 'Sjonnir the Ironshaper' are no longer friendly as they should be
+
+-Ulduar Instance fixes
+ -Boss 'Razorscale' (world->Tables->creature->GUID 137611) has been moved down to the ground to allow players to fight it; X:588.49, Y:-180.56, Z:396.91 
+
+-Icecrown Fixes
+ -changed 'Dark Zealot' (world->Tables->creature_template->Entry: 34728) faction to 21 (unit no longer friendly)
+ -changed 'Dark Ritualist' (world->Tables->creature_template->Entry: 34734) faction to 21 (unit no longer friendly)
+ -changed 'Deathspeaker Kharos' (world->Tables->creature_template->Entry: 34808) faction to 21 (unit no longer friendly)
+ -changed 'Kvaldir Reaver' (world->Tables->creature_template->Entry: 34838) faction to 14 (unit no longer friendly)
+ -changed 'Kvaldir Mist Binder' (world->Tables->creature_template->Entry: 34839) faction to 14 (unit is no longer friendly)
+ -Changed 'Mistcaller Yngvar' (world->Tables->creature_template->Entry: 34965) faction to 14 (unit is no longer friendly)
+
+-Other notes
+ -abilities such as 'Charge' and other similar abilities appear to be working correctly
