@@ -3,6 +3,25 @@ Bug Fix Log
 *These fixes apply to the Database 'world'
 
 
+-------
+1013_world_fixes.sql
+-------
+
+IceCrown
+ -added 200+ Titaniun Vein and Saronite Veins in Icecrown
+
+Alliance Shaman
+ -Farseer Eannu added
+
+DK quest Chain
+ -Quest 'The Plaguebringer's Request' will no longer chain with 'Noth's Special Brew' (because it caused a glitch).
+
+Blood Elf Paladin Fixes
+ -Quest 'The Second Trail' skips to 'REturn to Silvermoon' since 'The Second Trail' is bugged
+
+Ulduar Fixes
+ -Changed script for Kologarn and Thorim
+ -REmoved invisible mob at Hodir which caused him to stay in combat and not drop loot when killed
 ------
 1012_world_fixes.sql
 ------
