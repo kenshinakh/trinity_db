@@ -34,6 +34,8 @@ INSERT INTO creature_involvedrelation(id, quest) VALUES(30009, 12936);
 DELETE FROM creature_involvedrelation WHERE id = 30009 AND quest = 12934;
 INSERT INTO creature_involvedrelation(id, quest) VALUES(30009, 12934);
 
+DELETE FROM creature_loot_template WHERE entry = 800000;
+
 DELETE FROM creature WHERE id = 30026 AND map = 571;
 INSERT INTO creature(id, map, position_x, position_y, position_z) VALUES(30026, 571, 5789.23, -3072.62, 272.76);
 INSERT INTO creature(id, map, position_x, position_y, position_z) VALUES(30026, 571, 5826.68, -3034.46, 272.76);
