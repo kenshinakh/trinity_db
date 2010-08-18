@@ -2,6 +2,62 @@ Bug Fix Log
 ==============
 *These fixes apply to the Database 'world'
 
+------
+1015_world_fixes.sql
+------
+
+The Nexus: The Oculus (Normal) Fixes
+ -Ley-guardian Eregos loot added
+
+The Nexus: The Oculus (Heroic) Fixes
+ -Ley-guardian Eregos loot added
+
+Ulduar 10 and 25 Fixes
+ -Changed Mimiron's script
+
+DK bug Fixes
+ -Spell Power gives ZERO bonus to ALL attacks
+
+Eye of Eternity (10 man)
+ -Malygos is attackable and drops loot
+ -temp script added for Malygos
+
+Eye of Eternity (25 man)
+ -Malygos 25 man version added
+
+Gundrak Fixes
+ -Eck respawn time fixed
+
+
+
+------
+1014_world_fixes.sql
+------
+
+ZulDrak 
+ -Wodin the Troll-Servant and Gurgthock added, allows people to do The Amphitheater of Anguish: Yggdras!, The Amphitheater of Anguish: Magnataur!, The Amphitheater of Anguish: From Beyond!, The Amphitheater of Anguish: Tuskarrmageddon!, The Amphitheater of Anguish: Korrak the Bloodrager!
+
+Ebon Hold Fixes
+ -Deleted HighLord's Nemesis Trainer and placed in Heroic Training Dummy instead
+
+Random FIxes
+ -Skoll is attackable
+ -Added heroic training dummy into Silvermoon City, Undercity, Thunder Bluff, Sen'jin Village, Ogrimmar, Stormwind City, and Exodar
+ -Algalon in Ulduar 10 man drops an EoT instead of an EoC
+ -Drop rate of crystallized life, fire, water, earth, etc increased
+
+Herbalism
+ -Added 250+ nodes for Icethorn and Lichbloom in Stormpeaks
+ -Added 50+ nodes for Goldclover in Howling Fjord
+
+Mining
+ -Added 50+ nodes for Rich Saronite Deposits in Icecrown
+
+Hodir Questline fixes
+ -Added Overseer Syra, allows completion of "The Crone's Bargain"
+ -Fixed quest "Discipline", Just kill the exhausted Vrykul
+ -ugh too many fixes to list for the quest line, but it works now so after completing 'Mending Fences', you will be able to talk with factions of the Sons of Hodir.
+ -NPC Lillehoff, Quatermaster of the sons of hodir, added
 
 -------
 1013_world_fixes.sql
@@ -11,7 +67,7 @@ IceCrown
  -added 200+ Titaniun Vein and Saronite Veins in Icecrown
 
 Alliance Shaman
- -Farseer Eannu added
+ -Farseer Eannu added, quest 'Relic of the Earthen Ring' can be turned in to him
 
 DK quest Chain
  -Quest 'The Plaguebringer's Request' will no longer chain with 'Noth's Special Brew' (because it caused a glitch).
@@ -22,6 +78,14 @@ Blood Elf Paladin Fixes
 Ulduar Fixes
  -Changed script for Kologarn and Thorim
  -REmoved invisible mob at Hodir which caused him to stay in combat and not drop loot when killed
+
+Ulduar 25 Man Fixes
+ -All bosses give timers
+ -Flame Leviathan will aggro when people walk near
+
+Head of ONyxia Fixes
+ -Alliance version of the head now gives the quest
+
 ------
 1012_world_fixes.sql
 ------
