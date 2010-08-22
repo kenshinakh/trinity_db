@@ -1,6 +1,52 @@
 Bug Fix Log
 ==============
 *These fixes apply to the Database 'world'
+------
+1016_world_fixes.sql
+------
+
+Item Fixes
+ -Mirror of Truth proc rate and internal cooldown fixed and can be re-enabled
+
+Work around for Mysterious Egg 
+ -egg can be turned into Cracked Egg by doing weekly quest "Cracking that Mysterious Egg!" from Rhonin
+
+Work around for Disgusting Jar
+ -Jar can be turned into Disgusting Jar by doing weekly quest "Let's age that jar!" from Rhonin
+
+Alystros the Verdant Keeper is attackable, allows completion of quest "The Plume of Alystros"
+Added Ursoc in Grizzly Hills
+
+Added INfesting Jormungar, Ravenous Jormungar, Garm Watcherand Roaming Jormungar in Storm Peaks
+
+Unattackable mob fixes 
+ -Valhalas Vargul, Nergeld, Smoldering Geist, Rookery Whelp
+
+Quest fixes
+ -"Maintaining Discipline", "Forging an Alliance," "A New Beginning," "Veranus,", "Territorial Trespass," "The Terrace of the Makers," "The Earthen Oath"
+
+GM Island Fixes
+ -Added creature "Troda's Spirit WOlf" (Requires beast mastery to tame)
+ -Added 2 mail boxes, a guild vault, a banker and Aimee (for pastry)
+
+Northrend Herbalism
+ -Removed duplicate icethorn, lichbloom, and goldclover
+ -Added over a lot more icethorn, lichbloom, goldclover, Adder's Tongue, Talandra's Rose throughout Northrend
+
+Northrend Mining
+ -Removed duplicate saronite deposite and titanium veins
+ -Added more a lot Saronite deposite, Cobalt deposite, Titanium Veins throughout NOrthrend 
+
+Ulduar 10/25 man
+ -Algalon gives timer
+ -Kologarn respawn time fixed to 7 days
+
+Eye of Eternity Fixes
+ -Boss too easy, changed script
+
+Class FIxes
+ -fixed bug in spell_bonus_data dbc where all classes where doing extra damage for a stat that the spell does not use
+ -damage reduction in nearly all classes, some more than others (particularly hybrid classes)
 
 ------
 1015_world_fixes.sql
