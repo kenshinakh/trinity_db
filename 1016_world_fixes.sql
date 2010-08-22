@@ -248,7 +248,7 @@ DELETE FROM gameobject WHERE id = 190171 AND map = 571;
 
 
 DELETE FROM creature WHERE id = 29548 AND map = 1;
-INSERT INTO creature(id, map, position_x, position_y, position_z, orientation) VALUES(29548, 1, 16255.75, 16295.73, 13.17);
+INSERT INTO creature(id, map, position_x, position_y, position_z, orientation) VALUES(29548, 1, 16254.63, 16296.31, 13.17, 3.13);
 
 UPDATE creature SET position_x = 1802.58, position_y = 6057.35, position_z = 3.21 WHERE id = 25450 AND map = 571;
 
@@ -1558,7 +1558,7 @@ INSERT INTO gameobject(id, map, rotation3, spawntimesecs, animprogress, state, p
 INSERT INTO gameobject(id, map, rotation3, spawntimesecs, animprogress, state, position_x, position_y, position_z) VALUES (189973, 571, 1, 3600, 100, 1, 5810.09, 5752.49, -66.87);
 INSERT INTO gameobject(id, map, rotation3, spawntimesecs, animprogress, state, position_x, position_y, position_z) VALUES (189973, 571, 1, 3600, 100, 1, 5865.88, 5789.98, -53.66);
 INSERT INTO gameobject(id, map, rotation3, spawntimesecs, animprogress, state, position_x, position_y, position_z) VALUES (189973, 571, 1, 3600, 100, 1, 6011.17, 5702.31, -48.76);
-INSERT INTO gameobject(id, map, rotation3, spawntimesecs, animprogress, state, position_x, position_y, position_z) VALUES (189973, 571, 1, 3600, 100, 1, 6033.62m 5580.68, -69.44);
+INSERT INTO gameobject(id, map, rotation3, spawntimesecs, animprogress, state, position_x, position_y, position_z) VALUES (189973, 571, 1, 3600, 100, 1, 6033.62, 5580.68, -69.44);
 INSERT INTO gameobject(id, map, rotation3, spawntimesecs, animprogress, state, position_x, position_y, position_z) VALUES (189973, 571, 1, 3600, 100, 1, 6080.75, 5504.02, -74.78);
 INSERT INTO gameobject(id, map, rotation3, spawntimesecs, animprogress, state, position_x, position_y, position_z) VALUES (189973, 571, 1, 3600, 100, 1, 6275.44, 5478.00, -46.34);
 INSERT INTO gameobject(id, map, rotation3, spawntimesecs, animprogress, state, position_x, position_y, position_z) VALUES (189973, 571, 1, 3600, 100, 1, 6407.78, 5159.72, -67.76);
