@@ -1,0 +1,66 @@
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 15956 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 29249 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 15953 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 29268 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 15954 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 28919 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 29113 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 29615 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 15952 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 29278 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 15936 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 29701 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 16011 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 29718 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 16061 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 28357 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 29940 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 16060 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 28658 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 28890 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 29112 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 29955 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 16064 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 30603 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 10440 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 28445 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 28910 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 29109 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 30549 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 30600 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 16065 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 27771 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 30601 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 16063 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 27772 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 30602 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 16028 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 27773 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 29324 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 31099 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 15931 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 29373 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 15932 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 29417 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 15928 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 29448 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 15989 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 29991 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 15990 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 20350 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 20423 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 25465 AND item = 45624;
+UPDATE creature_loot_template SET item = 47241 WHERE entry = 30061 AND item = 45624;
+
+
+UPDATE creature_template SET difficulty_entry_1 = 31535 WHERE entry = 30449;
+UPDATE creature SET spawnMask = 3 WHERE map = 615;
+
+
+DELETE FROM quest_template WHERE entry = 800005;
+INSERT INTO quest_template(entry, Method, QuestLevel, Type, QuestFlags, SpecialFlags, Title, Details, Objectives, OfferRewardText, ReqItemId1, ReqItemCount1, ReqItemId2, ReqItemCount2, RewItemId1, RewItemCount1, RewOrReqMoney) VALUES(800005, 2, -1, 87, 0, 1, "Reforging Val'anyr, Hammer of the Ancient Kings", "Hm, with the power of the Gods, I shall reforge Val'anyr but first I need some materials.", "Bring 30 Fragments of Val'anyr, 50 Emblem of Triumphs and 30k gold to Rhonin so he can make it reforge the hammer of the Ancient Kings", "You brought the materials!? I shall reforge it for you... Hahaha, with these EoTs, I can get my T9 armor set D:! *Cough* Disregard that you heard that... Meekro, give me power to create the hammer! **A small puff of smoke appears and lo and behold, the hammer is fixed!**", 45038, 30, 47241, 50, 46017, 1, -300000000);
+
+DELETE FROM creature_questrelation WHERE id = 16128 AND quest = 800005;
+DELETE FROM creature_involvedrelation WHERE id = 16128 AND quest = 800005;
+INSERT INTO creature_questrelation(id, quest) VALUES(16128, 800005);
+INSERT INTO creature_involvedrelation(id, quest) VALUES(16128, 800005);

@@ -1,6 +1,15 @@
 Bug Fix Log
 ==============
 *These fixes apply to the Database 'world'
+
+Naxxramas 10 & 25 man
+ -All bosses drop EoTs now.
+
+Obsidian Sanctum 25 man
+ -Vesperon added
+
+Fragments of Val'anyr can be turned into Val'anyr, Hammer of ANcient Kings via a quest from Rhonin in Dalaran.
+
 ------
 1016_world_fixes.sql
 ------
@@ -45,8 +54,7 @@ Eye of Eternity Fixes
  -Boss too easy, changed script
 
 Class FIxes
- -fixed bug in spell_bonus_data dbc where all classes where doing extra damage for a stat that the spell does not use
- -damage reduction in nearly all classes, some more than others (particularly hybrid classes)
+ -fixed bug in spell_bonus_data dbc where all classes where doing extra damage for a stat that the spell does not use. This created damage reduction in nearly all classes, some more than others (particularly hybrid classes)
 
 ------
 1015_world_fixes.sql
