@@ -2,6 +2,25 @@ Bug Fix Log
 ==============
 *These fixes apply to the Database 'world'
 
+------
+1018_world_fixes.sql
+------
+
+General Lower level herb fixes
+ -added over 9000+ nodes of Peacebloom, Silverleaf, Earthroot, Mageroyal, Briarthorn, Stranglekep, Bruiseweed, Wild Steelbloom, Grave moss, Kingsblood, Liferoot, Fadeleaf, Goldthorn, Khadgar's Whisker
+
+General Lower level mining node fixes
+ -added over 9000+ nodes of Copper vein, Tin vein, Silver vein, Iron Deposit, Gold Vein, Mithril Deposit, Truesilver Deposit, Thorium Vein
+
+General GMI fixes
+ -made gmi more interesting
+
+Lillhoff's HP changed
+
+------
+1017_world_fixes.sql
+------
+
 Naxxramas 10 & 25 man
  -All bosses drop EoTs now.
 
